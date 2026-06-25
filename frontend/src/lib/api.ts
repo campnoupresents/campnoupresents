@@ -1,6 +1,6 @@
 import type { AuthResponse, Team, Match, Tournament } from '../types';
 
-const API_BASE_URL = 'http://localhost:4000/api';
+const API_BASE_URL = 'https://campnoupresents.onrender.com/api';
 const TOKEN_KEY = 'authToken';
 
 // Token management
