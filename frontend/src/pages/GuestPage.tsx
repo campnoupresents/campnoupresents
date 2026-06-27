@@ -408,13 +408,13 @@ export default function GuestPage() {
                         <div className="mt-3 pt-3 border-t">
                           <p className="text-xs font-semibold text-gray-600 mb-2">Squad</p>
                           <div className="space-y-1">
-                            {team.members.slice(0, 6).map((member) => (
+                            {team.members.slice(0, 7).map((member) => (
                               <p key={member._id} className="text-xs text-gray-600">
                                 • {member.name} {member.goals > 0 && `(${member.goals}g)`}
                               </p>
                             ))}
-                            {team.members.length > 6 && (
-                              <p className="text-xs text-gray-500">+{team.members.length - 6} more</p>
+                            {team.members.length > 7 && (
+                              <p className="text-xs text-gray-500">+{team.members.length - 7} more</p>
                             )}
                           </div>
                         </div>
