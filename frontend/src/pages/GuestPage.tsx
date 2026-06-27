@@ -414,7 +414,7 @@ export default function GuestPage() {
                               </p>
                             ))}
                             {team.members.length > 5 && (
-                              <p className="text-xs text-gray-500">+{team.members.length - 5} more</p>
+                              <p className="text-xs text-gray-500">+{team.members.length - 6} more</p>
                             )}
                           </div>
                         </div>
